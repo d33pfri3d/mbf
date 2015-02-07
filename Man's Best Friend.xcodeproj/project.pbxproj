@@ -15,6 +15,7 @@
 		28AB32711A858E7A00CB8E32 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28AB32701A858E7A00CB8E32 /* Images.xcassets */; };
 		28AB32741A858E7A00CB8E32 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AB32721A858E7A00CB8E32 /* LaunchScreen.xib */; };
 		28AB32801A858E7A00CB8E32 /* Man_s_Best_FriendTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28AB327F1A858E7A00CB8E32 /* Man_s_Best_FriendTests.m */; };
+		28AB328C1A858F8500CB8E32 /* MBFDog.m in Sources */ = {isa = PBXBuildFile; fileRef = 28AB328B1A858F8500CB8E32 /* MBFDog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		28AB32791A858E7A00CB8E32 /* Man's Best FriendTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Man's Best FriendTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28AB327E1A858E7A00CB8E32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28AB327F1A858E7A00CB8E32 /* Man_s_Best_FriendTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Man_s_Best_FriendTests.m; sourceTree = "<group>"; };
+		28AB328A1A858F8500CB8E32 /* MBFDog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBFDog.h; path = ../MBFDog.h; sourceTree = "<group>"; };
+		28AB328B1A858F8500CB8E32 /* MBFDog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBFDog.m; path = ../MBFDog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 		28AB325F1A858E7A00CB8E32 /* Man's Best Friend */ = {
 			isa = PBXGroup;
 			children = (
+				28AB328A1A858F8500CB8E32 /* MBFDog.h */,
+				28AB328B1A858F8500CB8E32 /* MBFDog.m */,
 				28AB32641A858E7A00CB8E32 /* AppDelegate.h */,
 				28AB32651A858E7A00CB8E32 /* AppDelegate.m */,
 				28AB326A1A858E7A00CB8E32 /* ViewController.h */,
@@ -223,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				28AB32661A858E7A00CB8E32 /* AppDelegate.m in Sources */,
+				28AB328C1A858F8500CB8E32 /* MBFDog.m in Sources */,
 				28AB32691A858E7A00CB8E32 /* Man_s_Best_Friend.xcdatamodeld in Sources */,
 				28AB326C1A858E7A00CB8E32 /* ViewController.m in Sources */,
 				28AB32631A858E7A00CB8E32 /* main.m in Sources */,
